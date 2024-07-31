@@ -16,7 +16,7 @@ void decimalToBinary(int decimal) {
             decimal /= 2;
         }
     }
-    binary[index] = '\0';
+    binary[index++] = '\0';
 
     for (int i = 0; i < index / 2; ++i) {
         char temp = binary[i];
